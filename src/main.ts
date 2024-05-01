@@ -272,3 +272,6 @@ const todo = {
   isCompleted: true
 } satisfies Todo // here it look at todo see its date and use it as date
 todo.dueDate.setDate(4);
+
+//@ts-ignore
+//@ts-expect-error
